@@ -1,0 +1,76 @@
+// breakpoints (same as bootstrap)
+// Mobile first - use min-width                        
+// Small devices (landscape phones, 576px and up)
+$min-extra-small: 576px;
+
+// Medium devices (tablets, 768px and up)
+$min-small: 768px;
+
+// Large devices (desktops, 992px and up)
+$min-large: 992px;
+
+// Extra large devices (large desktops, 1200px and up)
+$min-extra-large: 1200px;
+
+
+
+// colors
+$red: #bd2025;
+$black: #444;
+$offwhite: #eee;
+
+.bg-red {
+    background-color: $red;
+}
+.bg-black {
+    background-color: $black;
+}
+.bg-white {
+    background-color: $offwhite;
+}
+.white {
+    color: #fff;
+}
+
+// cursors
+.link-cursor {
+    cursor: pointer;
+}
+
+/*
+    Available fonts 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+.btn-dark {
+  background-color: $black;
+}
+.btn-light {
+  background-color: #eee;
+}
+.btn-danger {
+  background-color: $red;
+}
+
+//animations
+@keyframes fade-in {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadein-onload {
+    animation: fade-in linear 0.3s;
+}

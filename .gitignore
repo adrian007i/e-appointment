@@ -1,0 +1,11 @@
+# OS files 
+.DS_Store
+Thumbs.db
+# npm
+npm-debug.log
+/node_modules
+package-lock.json
+# any .log file 
+*.log
+# documentation folder
+/documentation

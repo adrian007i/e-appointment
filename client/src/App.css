@@ -1,0 +1,417 @@
+.bg-red {
+  background-color: #bd2025;
+}
+
+.bg-black {
+  background-color: #444;
+}
+
+.bg-white {
+  background-color: #eee;
+}
+
+.white {
+  color: #fff;
+}
+
+.link-cursor {
+  cursor: pointer;
+}
+
+/*
+    Available fonts 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 28.8px;
+  font-size: 1.8rem;
+  color: #bd2025;
+  text-align: center;
+}
+
+h2 {
+  font-size: 19.2px;
+  font-size: 1.2rem;
+}
+
+.btn-dark {
+  background-color: #444;
+}
+
+.btn-light {
+  background-color: #eee;
+}
+
+.btn-danger {
+  background-color: #bd2025;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadein-onload {
+  -webkit-animation: fade-in linear 0.3s;
+  animation: fade-in linear 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+@-webkit-keyframes nav-slide-in {
+  0% {
+    -webkit-transform: translateX(-150px);
+    transform: translateX(-150px);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes nav-slide-in {
+  0% {
+    -webkit-transform: translateX(-150px);
+    transform: translateX(-150px);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.navbar-brand {
+  -webkit-animation: nav-slide-in linear 0.5s;
+  animation: nav-slide-in linear 0.5s;
+}
+
+.carousel-item {
+  background-image: url('img/helloquence-51716-unsplash.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.whitebox {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item > div {
+  height: 400px;
+}
+
+.landing-category i {
+  font-size: 48px;
+}
+
+.landing-links {
+  margin-top: 40px;
+}
+
+.bookings button {
+  width: 80px;
+}
+
+.bookings {
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .bookings {
+    width: 80%;
+  }
+}
+
+.red-h2 {
+  color: #bd2025;
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+
+.reviews {
+  width: 100%;
+  margin: auto;
+}
+@media (min-width: 768px) {
+  .reviews {
+    width: 50%;
+  }
+}
+
+.review {
+  border-bottom: 1px solid #bd2025;
+}
+
+.rev-name {
+  font-size: 22.4px;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.red {
+  color: #bd2025;
+}
+
+.spacer {
+  height: 100px;
+}
+
+.rev-reply {
+  color: #000;
+}
+
+.rev-reply:hover {
+  color: #000;
+}
+
+.sidebar {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  min-height: 100%;
+  width: 64px;
+  width: 4rem;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    width: 12rem;
+  }
+}
+
+.sidebar-collapse {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  width: 64px;
+  width: 3rem;
+}
+
+.sidebar .nav-pills .nav-link {
+  color: #fff;
+  white-space: nowrap;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.sidebar .nav-pills .active {
+  background-color: #bd2025;
+}
+
+.sidebar .nav-pills .nav-link .expanded {
+  -webkit-animation: fade-in 0.5s linear;
+  animation: fade-in 0.5s linear;
+}
+
+.dashboard-content {
+  -webkit-animation: fade-in 0.3s linear;
+  animation: fade-in 0.3s linear;
+}
+
+.dashboard-inner-title {
+  background-color: #444;
+  color: #fff;
+}
+
+.dashboard-inner-title {
+  font-size: 12.8px;
+  font-size: 0.8rem;
+}
+@media (min-width: 768px) {
+  .dashboard-inner-title {
+    font-size: 1rem;
+  }
+}
+
+.dashboard-inner-title .breadcrumb .breadcrumb-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dashboard-inner-title .breadcrumb .breadcrumb-item a:hover {
+  color: #aaa;
+}
+
+.dashboard-inner-title .breadcrumb .active {
+  color: #aaa;
+}
+
+.dashboard-selection-list i {
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+.little-corner {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  max-width: 200px;
+  min-width: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  color: #bd2025;
+}
+
+@-webkit-keyframes timeline-expand {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+@keyframes timeline-expand {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 200px;
+  }
+}
+.progress {
+  -webkit-animation: fade-in linear 1s;
+  animation: fade-in linear 1s;
+  -webkit-transition: all linear 1s;
+  transition: all linear 1s;
+  /*
+  @media (min-width: $min-small) {
+      width: 200px;
+  }
+  @media (min-width: $min-large) {
+      width: 400px;
+  }*/
+}
+
+.day p {
+  width: 86px;
+}
+
+/*
+    Flex Layout 
+    These styles ensure that the 
+    footer is always at the bottom of the page.
+
+    Layout: 
+        html 
+            body 
+                root 
+                    App
+                        Navbar
+                        content
+                    footer 
+*/
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.App {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.content {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  overflow-x: auto;
+}
+
+@media (max-width: 650px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.footer {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.simple-form {
+  width: 90%;
+}
+@media (min-width: 400px) {
+  .simple-form {
+    width: 400px;
+  }
+}
+
+/* demo styles. TODO refactor when creating actual components*/
+.red {
+  color: #bd2025;
+}
+
+.bg-editable {
+  background-color: #eee;
+}
+
+/*# sourceMappingURL=App.css.map */

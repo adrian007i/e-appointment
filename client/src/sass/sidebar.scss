@@ -1,0 +1,29 @@
+// Styles for the dashboard sidebar
+
+.sidebar {
+  transition: all 0.5s ease;
+  overflow: hidden;
+  min-height: 100%;
+  width: 4rem; // small width on small screen
+  @media (min-width: $min-small) {
+    width: 12rem; // longer width on larger screen.
+  }
+}
+.sidebar-collapse {
+  transition: all 0.5s ease;
+  width: 4rem;
+}
+
+.sidebar .nav-pills .nav-link {
+  color: #fff;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+.sidebar .nav-pills .active {
+  background-color: $red;
+}
+
+// fade link (anchor tag) when sidebar expands
+.sidebar .nav-pills .nav-link .expanded {
+  animation: fade-in 0.5s linear;
+}

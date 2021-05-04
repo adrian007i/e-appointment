@@ -1,0 +1,34 @@
+
+.dashboard-content {
+   animation: fade-in 0.3s linear;
+}
+
+// dashboard inner title
+.dashboard-inner-title {
+    background-color: $black;
+    color: #fff;
+}
+.dashboard-inner-title {
+    font-size: 0.8rem;
+    @media (min-width: $min-small) {
+        font-size: 1rem;
+    }
+}
+.dashboard-inner-title .breadcrumb .breadcrumb-item a {
+    color: #fff;
+    text-decoration: none;
+} 
+.dashboard-inner-title .breadcrumb .breadcrumb-item a:hover {
+    color: #aaa;
+} 
+.dashboard-inner-title .breadcrumb .active {
+    color: #aaa;
+}
+
+.dashboard-selection-list i{
+    font-size: 2rem;
+}
+
+.little-corner {
+   font-size: 1rem;
+}

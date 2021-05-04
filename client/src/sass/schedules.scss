@@ -1,0 +1,22 @@
+
+
+@keyframes timeline-expand {
+    0%      {width: 0}
+    100%    {width: 200px} 
+}
+.progress {
+    //width: 0px;
+    animation: fade-in linear 1s;
+    transition: all linear 1s;
+    /*
+    @media (min-width: $min-small) {
+        width: 200px;
+    }
+    @media (min-width: $min-large) {
+        width: 400px;
+    }*/
+}
+
+.day p {
+    width: 86px;
+}

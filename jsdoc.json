@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "templates": {
+    "systemName": "Code Innovators HackTT E-Appointment System",
+    "footer": "<p style=\"text-align:center\">Made for the <a href=\"https://hacktt.gov.tt/\">2019 iGov HackTT Competion</a></p>",
+    "copyright": "2019 Code Innovators. All rights reserved.",
+    "navType": "vertical",
+    "theme": "simplex",
+    "linenums": true,
+    "collapseSymbols": false,
+    "inverseNav": true,
+    "outputSourceFiles": true,
+    "search": true,
+    "includeDate": false
+  }
+}

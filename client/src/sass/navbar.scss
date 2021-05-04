@@ -1,0 +1,12 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+@keyframes nav-slide-in {
+  0%   {transform: translateX(-150px);}
+  100% {transform: none;}
+}
+
+.navbar-brand {
+  animation: nav-slide-in linear 0.5s;
+}
